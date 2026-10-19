@@ -1,0 +1,147 @@
+# Yahoo! Auctions deal watcher configuration.
+# Prices are JPY, tax included. "market" prices are learned automatically from
+# recent closed (sold) auctions; `fallback_market_jpy` is only used when there
+# are too few clean sold listings to compute a median.
+
+schedule:
+  alert_window_hours: 24      # alert this long before an auction ends if price is still low
+  run_interval_hours: 2       # must match the cron in .github/workflows/watch.yml
+  final_call_hours: 0         # >0 sends a second reminder this close to the end (0 = off)
+
+search:
+  category: 23336             # コンピュータ; narrows results, drop to search everything
+  pages_per_query: 1          # newest-first pages (100 items each) per run
+  pages_first_run: 4          # deeper sweep when state is empty
+  request_delay_seconds: 1.5
+
+filters:
+  include_junk: false         # ジャンク / 動作未確認 listings (often dead or core-removed boards)
+  include_laptops: false      # laptop "4090" etc. are much weaker mobile chips
+  max_price_to_market: 0.85   # skip before any LLM call if price is already above this share of market
+  min_price_to_market: 0.08   # below this on a fixed-price listing is almost always bait / parts / box
+
+deal:
+  deal_ratio: 0.75            # "well below market" = total price <= 75% of market value
+  strong_ratio: 0.60
+
+llm:
+  triage_model: claude-haiku-5-5
+  triage_effort: high
+  verify_model: claude-sonnet-5-5
+  verify_effort: high
+  verify_below_confidence: 0.75   # Haiku "interesting" with lower confidence also goes to Sonnet
+  verify_all_alerts: false        # true = every alert is double-checked by Sonnet first
+  triage_images: 3
+  verify_images: 6
+  max_triage_per_run: 80
+  max_verify_per_run: 12
+  parallel: 4                     # concurrent LLM analyses (Yahoo requests stay sequential)
+
+# fallback_market_jpy values were seeded from ヤフオク sold listings in Oct 2026; they only matter when
+# the automatic sold-price median has too few samples, and to discard parts/boxes from that median.
+#
+# Product families. `patterns` are regexes applied to the NFKC-normalised,
+# upper-cased title with spaces removed (so "RTX 4090" -> "RTX4090").
+families:
+  rtx5090:
+    name: GeForce RTX 5090 (32GB)
+    queries: ["5090"]
+    patterns: ['5090(?!D)']
+    fallback_market_jpy: 1000000
+  rtx5090d:
+    name: GeForce RTX 5090 D
+    queries: []
+    patterns: ['5090D']
+    fallback_market_jpy: 850000
+  rtx5080:
+    name: GeForce RTX 5080 (16GB)
+    queries: ["5080"]
+    patterns: ['5080']
+    fallback_market_jpy: 255000
+  rtx5070ti:
+    name: GeForce RTX 5070 Ti (16GB)
+    queries: ["5070 Ti"]
+    patterns: ['5070TI']
+    fallback_market_jpy: 188000
+  rtx4090:
+    name: GeForce RTX 4090 (24GB)
+    queries: ["4090"]
+    patterns: ['4090(?!D)']
+    fallback_market_jpy: 430000
+  rtx4090d:
+    name: GeForce RTX 4090 D
+    queries: []
+    patterns: ['4090D']
+    fallback_market_jpy: 370000
+  rtx4080super:
+    name: GeForce RTX 4080 SUPER (16GB)
+    queries: []
+    patterns: ['4080(SUPER|S(?![A-Z]))']
+    fallback_market_jpy: 170000
+  rtx4080:
+    name: GeForce RTX 4080 (16GB)
+    queries: ["4080"]
+    patterns: ['4080(?!SUPER|S(?![A-Z]))']
+    fallback_market_jpy: 157000
+  rtx4070tisuper:
+    name: GeForce RTX 4070 Ti SUPER (16GB)
+    queries: ["4070 Ti SUPER"]
+    patterns: ['4070TI(SUPER|S(?![A-Z]))']
+    fallback_market_jpy: 124000
+  rtx3090ti:
+    name: GeForce RTX 3090 Ti (24GB)
+    queries: ["3090 Ti"]
+    patterns: ['3090TI']
+    fallback_market_jpy: 190000
+  rtx3090:
+    name: GeForce RTX 3090 (24GB)
+    queries: ["3090"]
+    patterns: ['3090(?!TI)']
+    fallback_market_jpy: 205000
+  titanrtx:
+    name: TITAN RTX (24GB)
+    queries: ["TITAN RTX"]
+    patterns: ['TITANRTX']
+    fallback_market_jpy: 100000
+  rtxpro6000:
+    name: RTX PRO 6000 Blackwell (96GB)
+    queries: ["RTX PRO 6000"]
+    patterns: ['RTXPRO6000']
+    fallback_market_jpy: 1800000
+  rtxpro5000:
+    name: RTX PRO 5000 Blackwell (48GB)
+    queries: ["RTX PRO 5000"]
+    patterns: ['RTXPRO5000']
+    fallback_market_jpy: 950000
+  rtx6000ada:
+    name: RTX 6000 Ada (48GB)
+    queries: ["RTX 6000 Ada"]
+    patterns: ['RTX6000ADA', 'RTX6000(?!.*(QUADRO|TURING))48GB']
+    fallback_market_jpy: 850000
+  rtx5000ada:
+    name: RTX 5000 Ada (32GB)
+    queries: ["RTX 5000 Ada"]
+    patterns: ['RTX5000ADA']
+    fallback_market_jpy: 450000
+  rtxa6000:
+    name: RTX A6000 (48GB)
+    queries: ["RTX A6000"]
+    patterns: ['(RTX|NVIDIA)A6000']
+    fallback_market_jpy: 570000
+  rtxa5000:
+    name: RTX A5000 (24GB)
+    queries: ["RTX A5000"]
+    patterns: ['(RTX|NVIDIA)A5000']
+    fallback_market_jpy: 355000
+  quadrortx8000:
+    name: Quadro RTX 8000 (48GB)
+    queries: ["Quadro RTX 8000"]
+    patterns: ['QUADRORTX8000', 'RTX8000']
+    fallback_market_jpy: 255000
+  epyc:
+    name: AMD EPYC (CPU / board bundle / server)
+    queries: ["EPYC"]
+    patterns: ['EPYC']
+    fallback_market_jpy: null   # too heterogeneous; the LLM estimates value per listing
+    always_llm: true
+    gpu: false
