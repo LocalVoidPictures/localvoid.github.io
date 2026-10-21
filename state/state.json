@@ -1,8 +1,8 @@
 {
  "alerts": [],
- "last_run": "2026-10-21T11:51:30.292624+00:00",
+ "last_run": "2026-10-21T17:16:14.711374+00:00",
  "market": {
-  "_updated": "2026-10-20T18:27:49.204838+00:00",
+  "_updated": "2026-10-21T17:10:21.029053+00:00",
   "epyc": {
    "comps": [],
    "median": null,
@@ -10,6 +10,20 @@
   },
   "quadrortx8000": {
    "comps": [
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": false,
+     "price": 265650,
+     "title": "NVIDIA Quadro RTX 8000 Passive 48GB 699-2G150-0231-302 プロフェッショナル グラフィックボード 中古 T11792754"
+    },
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": false,
+     "price": 265650,
+     "title": "NVIDIA Quadro RTX 8000 Passive 48GB 699-2G150-0231-302 プロフェッショナル グラフィックボード 中古 T11792752"
+    },
     {
      "bids": 1,
      "date": "2026-10-10",
@@ -60,11 +74,32 @@
      "title": "NVIDIA Quadro RTX8000 48GB 中古グラフィックボード"
     }
    ],
-   "median": 255200,
-   "samples": 7
+   "median": 265650,
+   "samples": 9
   },
   "rtx3090": {
    "comps": [
+    {
+     "bids": 1,
+     "date": "2026-10-22",
+     "fixed": true,
+     "price": 198000,
+     "title": "GeForce RTX3090 24GB GD DR6X グラフィックボード グラボ"
+    },
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 246000,
+     "title": "Showg様専用 【当社保証あり】 RTX 3090 OC 24GB ASUS TUF Gaming 【動作確認済み】"
+    },
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 222800,
+     "title": "ASUS ROG STRIX RTX 3090 O24G GAMING 24GB動作確認済"
+    },
     {
      "bids": 10,
      "date": "2026-10-20",
@@ -127,34 +162,20 @@
      "fixed": true,
      "price": 198000,
      "title": "MSI GeForce RTX 3090 GAMING X TRIO 24GB グラフィックボード"
-    },
-    {
-     "bids": 24,
-     "date": "2026-10-17",
-     "fixed": false,
-     "price": 212000,
-     "title": "GIGABYTE GeForce RTX3090 GAMING OC 24G GV-N3090GAMING OC-24GD"
-    },
-    {
-     "bids": 44,
-     "date": "2026-10-17",
-     "fixed": false,
-     "price": 205001,
-     "title": "GIGABYTE GeForce RTX 3090 GAMING OC 24G グラフィックボード"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-17",
-     "fixed": true,
-     "price": 226500,
-     "title": "【動作良好】ASUS ROG STRIX GeForce RTX 3090 ホワイト OC版 24GB グラフィックボード"
     }
    ],
-   "median": 205900,
-   "samples": 55
+   "median": 206500,
+   "samples": 56
   },
   "rtx3090ti": {
    "comps": [
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 225000,
+     "title": "GALAX RTX 3090Ti OC Boomstar 24GB グラフィックボード本体のみ"
+    },
     {
      "bids": 73,
      "date": "2026-10-18",
@@ -231,17 +252,10 @@
      "fixed": true,
      "price": 199900,
      "title": "ASUS ROG STRIX GeForce RTX 3090 Ti OC Edition 24GB 簡易水冷モデル"
-    },
-    {
-     "bids": 3,
-     "date": "2026-08-07",
-     "fixed": false,
-     "price": 194000,
-     "title": "MSI NVIDIA (エムエスアイ エヌビディア) グラフィックカード GeForce RTX 3090 Ti GAMING X TRIO 24G 開封品"
     }
    ],
-   "median": 196950,
-   "samples": 18
+   "median": 199900,
+   "samples": 19
   },
   "rtx4070tisuper": {
    "comps": [
@@ -337,6 +351,13 @@
    "comps": [
     {
      "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 438800,
+     "title": "【改造品】RTX 4080 32GB(VRAM増設・Micron製GDDR6X) ComfyUI・LLM・動画生成向け 動作確認済"
+    },
+    {
+     "bids": 1,
      "date": "2026-10-19",
      "fixed": true,
      "price": 160000,
@@ -411,17 +432,10 @@
      "fixed": true,
      "price": 156800,
      "title": "ZOTAC GAMING GeForce RTX 4080 AMP Extreme AIRO 16GB"
-    },
-    {
-     "bids": 1,
-     "date": "2026-09-30",
-     "fixed": true,
-     "price": 160000,
-     "title": "GIGABYTE NVIDIA RTX 4080 16GB 外排気モデル 動作品"
     }
    ],
    "median": 156185,
-   "samples": 36
+   "samples": 37
   },
   "rtx4080super": {
    "comps": [
@@ -516,6 +530,48 @@
   "rtx4090": {
    "comps": [
     {
+     "bids": 77,
+     "date": "2026-10-21",
+     "fixed": false,
+     "price": 401500,
+     "title": "GV-N4090WF3V2-24GD-T グラフィックボード■一部保証品"
+    },
+    {
+     "bids": 56,
+     "date": "2026-10-21",
+     "fixed": false,
+     "price": 391600,
+     "title": "GV-N4090WF3V2-24GD-T グラフィックボード■一部保証品"
+    },
+    {
+     "bids": 48,
+     "date": "2026-10-21",
+     "fixed": false,
+     "price": 492800,
+     "title": "INNO3D GeForce RTX 4090 X3 OC INRTX4090 X3OC グラフィックボード ビデオカード 24GB HDMI DP 中古 T11793072"
+    },
+    {
+     "bids": 55,
+     "date": "2026-10-21",
+     "fixed": false,
+     "price": 499400,
+     "title": "INNO3D GeForce RTX 4090 X3 OC INRTX4090 X3OC グラフィックボード ビデオカード 24GB HDMI DP 中古 T11642506"
+    },
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 475000,
+     "title": "【当社保証あり】 RTX 4090 OC 24GB ZOTAC GAMING Trinity 【動作確認済み】"
+    },
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 484800,
+     "title": "【中古美品】ASUS TUF GAMING GeForce RTX 4090 24GB GDDR6X グラフィックボード"
+    },
+    {
      "bids": 56,
      "date": "2026-10-17",
      "fixed": false,
@@ -556,52 +612,10 @@
      "fixed": true,
      "price": 459800,
      "title": "【動作確認済USED】ZOTAC GeForce RTX 4090 24GB GDDR6X グラフィックボード"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-15",
-     "fixed": true,
-     "price": 250000,
-     "title": "GeForce RTX4090 グラフィックボード 本体"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-15",
-     "fixed": true,
-     "price": 300000,
-     "title": "GeForce RTX4090 グラフィックボード 本体"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-15",
-     "fixed": true,
-     "price": 300000,
-     "title": "GeForce RTX4090 グラフィックボード 本体"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-15",
-     "fixed": true,
-     "price": 439800,
-     "title": "Palit GeForce RTX 4090 GameRock Midnight Kaleidoscope 24GB"
-    },
-    {
-     "bids": 24,
-     "date": "2026-10-14",
-     "fixed": false,
-     "price": 10100,
-     "title": "GIGABYTE RTX 4090 グラフィックボード AK07"
-    },
-    {
-     "bids": 33,
-     "date": "2026-10-14",
-     "fixed": false,
-     "price": 8500,
-     "title": "GIGABYTE RTX 4090 グラフィックボード AK06"
     }
    ],
-   "median": 439800,
-   "samples": 58
+   "median": 450000,
+   "samples": 60
   },
   "rtx4090d": {
    "comps": [],
@@ -630,6 +644,20 @@
   },
   "rtx5070ti": {
    "comps": [
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 245000,
+     "title": "【新品未使用】MSI GeForce RTX 5070 Ti 葬送のフリーレン"
+    },
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 210000,
+     "title": "AX Gaming GeForce RTX 5070 Ti X3W 16GB "
+    },
     {
      "bids": 1,
      "date": "2026-10-20",
@@ -699,27 +727,34 @@
      "fixed": true,
      "price": 201980,
      "title": "新品未開封 GAINWARD GeForce RTX 5070 Ti PHOENIX-S 16GB "
-    },
-    {
-     "bids": 13,
-     "date": "2026-10-15",
-     "fixed": false,
-     "price": 190000,
-     "title": "GIGABYTE GeForce RTX 5070 Ti EAGLE OC SFF 16G"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-13",
-     "fixed": true,
-     "price": 203000,
-     "title": "■新品未開封 GeForce RTX 5070 Ti 16G VENTUS 3X OC MSI"
     }
    ],
-   "median": 188000,
+   "median": 189400,
    "samples": 75
   },
   "rtx5080": {
    "comps": [
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 290000,
+     "title": "MSI GeForce RTX 5080 16G GAMING TRIO OC WHITE 開封未使用品"
+    },
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 290000,
+     "title": "【新品未開封】 GIGABYTE NVIDIA Geforce RTX5080 搭載 グラフィックボード GDDR7 16GB"
+    },
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 360000,
+     "title": "ASUS ROG ASTRAL GeForce RTX 5080 16GB OC Edition"
+    },
     {
      "bids": 1,
      "date": "2026-10-20",
@@ -782,34 +817,41 @@
      "fixed": true,
      "price": 289800,
      "title": "ASUS GeForce RTX 5080 PRIME OC 16GB GDDR7 グラフィックボード"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-19",
-     "fixed": true,
-     "price": 259800,
-     "title": "【当社保証あり】 RTX 5080 OC 16GB GALAKURO GAMING 【動作確認済み】"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-19",
-     "fixed": true,
-     "price": 232800,
-     "title": "Palit RTX5080 GAMINGPRO 16GB 本体のみ"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-19",
-     "fixed": true,
-     "price": 246000,
-     "title": "Palit GeForce RTX 5080 GamingPro 16GB GB2031A ベイパーチャンバー版"
     }
    ],
    "median": 259800,
-   "samples": 55
+   "samples": 56
   },
   "rtx5090": {
    "comps": [
+    {
+     "bids": 35,
+     "date": "2026-10-21",
+     "fixed": false,
+     "price": 26000,
+     "title": "GeForce RTX 5090 グラフィックボード A24"
+    },
+    {
+     "bids": 25,
+     "date": "2026-10-21",
+     "fixed": false,
+     "price": 14500,
+     "title": "GeForce RTX 5090 グラフィックボード AK09"
+    },
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 1150000,
+     "title": "MSI GeForce RTX 5090 32G VENTUS 3X OC グラフィックスカード VD9001"
+    },
+    {
+     "bids": 1,
+     "date": "2026-10-21",
+     "fixed": true,
+     "price": 1488800,
+     "title": "【新品・購入証明】MSI RTX 5090 32G LIGHTNING Z 超絶OC仕様の限定生産モデル(推奨電源1300W)"
+    },
     {
      "bids": 71,
      "date": "2026-10-21",
@@ -865,38 +907,10 @@
      "fixed": false,
      "price": 12000,
      "title": "ZOTAC RTX 5090 GEFORCE T03"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-18",
-     "fixed": true,
-     "price": 1188000,
-     "title": "新品 保証期間内GIGABYTE AORUS GeForce RTX 5090 MASTER ICE 32GB OC"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-18",
-     "fixed": true,
-     "price": 1150000,
-     "title": "MSI GeForce RTX 5090 32G SUPRIM LIQUID SOC 水冷モデル"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-18",
-     "fixed": true,
-     "price": 1198000,
-     "title": "新品 RTX 5090 ASUS ROG ASTRAL O32G-BTF-GAMING"
-    },
-    {
-     "bids": 1,
-     "date": "2026-10-18",
-     "fixed": true,
-     "price": 1150000,
-     "title": "MSI GeForce VENTUS 3X RTX 5090 OC"
     }
    ],
-   "median": 1025750,
-   "samples": 64
+   "median": 1050000,
+   "samples": 62
   },
   "rtx5090d": {
    "comps": [],
@@ -1201,8 +1215,8 @@
      "title": "titan rtx 24gb "
     }
    ],
-   "median": 105000,
-   "samples": 18
+   "median": 107500,
+   "samples": 17
   }
  },
  "seen": {
@@ -1346,6 +1360,12 @@
   },
   "1247649261": {
    "end_time": "2026-10-21T22:25:18+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "1247822446": {
+   "end_time": "2026-10-25T21:08:05+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -2088,6 +2108,24 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "c1249183908": {
+   "end_time": "2026-10-23T22:16:33+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "c1249204528": {
+   "end_time": "2026-10-22T05:47:41+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "c1249228930": {
+   "end_time": "2026-10-23T21:19:59+09:00",
+   "family": "rtx5070ti",
+   "reason": "price 272% of market",
+   "status": "screened"
+  },
   "d1116117216": {
    "end_time": "2026-10-24T07:39:03+09:00",
    "family": null,
@@ -2368,6 +2406,12 @@
    "end_time": "2026-10-23T22:43:19+09:00",
    "family": null,
    "reason": "no target model in title",
+   "status": "screened"
+  },
+  "d1249218544": {
+   "end_time": "2026-10-24T00:59:45+09:00",
+   "family": "rtx5090",
+   "reason": "price 97% of market",
    "status": "screened"
   },
   "e1124195671": {
@@ -2952,6 +2996,12 @@
    "reason": "junk/untested",
    "status": "screened"
   },
+  "f1249228713": {
+   "end_time": "2026-10-25T19:07:37+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "g1066736153": {
    "end_time": "2026-10-22T08:12:49+09:00",
    "family": null,
@@ -3498,6 +3548,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "h1248945574": {
+   "end_time": "2026-10-22T19:40:07+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "h1248948381": {
    "end_time": "2026-10-25T21:14:12+09:00",
    "family": null,
@@ -3530,6 +3586,18 @@
   },
   "h1249143975": {
    "end_time": "2026-10-28T04:59:45+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "h1249207945": {
+   "end_time": "2026-10-22T20:46:16+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "h1249212999": {
+   "end_time": "2026-10-25T23:59:05+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4134,6 +4202,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "k1249143150": {
+   "end_time": "2026-10-23T22:29:37+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "k1249174351": {
    "end_time": "2026-10-28T21:04:48+09:00",
    "family": null,
@@ -4422,6 +4496,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "l1249079788": {
+   "end_time": "2026-10-25T22:57:19+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "l1249089018": {
    "end_time": "2026-10-22T17:48:27+09:00",
    "family": null,
@@ -4430,6 +4510,12 @@
   },
   "l1249153704": {
    "end_time": "2026-10-24T10:01:30+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "l1249236718": {
+   "end_time": "2026-10-24T21:14:00+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4652,6 +4738,12 @@
   },
   "m1248638202": {
    "end_time": "2026-10-21T01:18:05+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "m1248742376": {
+   "end_time": "2026-10-23T23:25:01+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -5748,6 +5840,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "q1249214825": {
+   "end_time": "2026-10-23T22:21:43+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "r1145809202": {
    "end_time": "2026-10-20T13:18:36+09:00",
    "family": null,
@@ -6076,6 +6174,12 @@
    "end_time": "2026-10-28T05:49:54+09:00",
    "family": null,
    "reason": "no target model in title",
+   "status": "screened"
+  },
+  "r1249230015": {
+   "end_time": "2026-10-29T09:33:40+09:00",
+   "family": "rtx4080",
+   "reason": "laptop",
    "status": "screened"
   },
   "s1111907288": {
@@ -6472,6 +6576,12 @@
    "end_time": "2026-10-22T21:15:33+09:00",
    "family": "quadrortx8000",
    "reason": "accessory/parts keyword",
+   "status": "screened"
+  },
+  "t1244664949": {
+   "end_time": "2026-10-22T20:00:36+09:00",
+   "family": null,
+   "reason": "no target model in title",
    "status": "screened"
   },
   "t1245743713": {
@@ -6900,6 +7010,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "u1249241368": {
+   "end_time": "2026-10-26T01:53:53+09:00",
+   "family": "rtx4090",
+   "reason": "suspiciously cheap fixed price (5%)",
+   "status": "screened"
+  },
   "v1123633668": {
    "end_time": "2026-10-24T16:10:13+09:00",
    "family": null,
@@ -7160,6 +7276,12 @@
   },
   "v1249080687": {
    "end_time": "2026-10-22T17:32:52+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "v1249175781": {
+   "end_time": "2026-10-24T19:06:29+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -7496,6 +7618,12 @@
   },
   "w1248956552": {
    "end_time": "2026-10-23T20:57:43+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "w1249054446": {
+   "end_time": "2026-10-22T22:30:25+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -9674,6 +9802,36 @@
   },
   "z708600534": {
    "end_time": "2027-10-21T20:27:51+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "z708616694": {
+   "end_time": "2027-10-21T20:53:15+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "z708672788": {
+   "end_time": "2027-10-21T22:07:03+09:00",
+   "family": "rtx4070tisuper",
+   "reason": "price 129% of market",
+   "status": "screened"
+  },
+  "z708693940": {
+   "end_time": "2027-10-21T22:36:34+09:00",
+   "family": "rtx5090",
+   "reason": "price 100% of market",
+   "status": "screened"
+  },
+  "z708725566": {
+   "end_time": "2027-10-21T23:31:08+09:00",
+   "family": "rtx5070ti",
+   "reason": "price 126% of market",
+   "status": "screened"
+  },
+  "z708755010": {
+   "end_time": "2027-10-22T00:45:57+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
