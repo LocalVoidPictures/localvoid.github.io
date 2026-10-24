@@ -2,7 +2,7 @@
 
 Auctions that look genuine and are currently under their deal ceiling. You'll get an alert about 24h before each one ends if the price is still under the ceiling.
 
-_Updated 2026-10-24 12:46 UTC_
+_Updated 2026-10-24 17:31 UTC_
 
 | Ends (JST) | Item | Now | Ceiling | Market | Verdict |
 |---|---|---|---|---|---|
