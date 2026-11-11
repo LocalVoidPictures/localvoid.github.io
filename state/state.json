@@ -1,8 +1,8 @@
 {
  "alerts": [],
- "last_run": "2026-11-11T09:27:41.591504+00:00",
+ "last_run": "2026-11-11T17:59:23.277337+00:00",
  "market": {
-  "_updated": "2026-11-10T20:48:51.528356+00:00",
+  "_updated": "2026-11-11T17:52:57.676485+00:00",
   "epyc": {
    "comps": [],
    "median": null,
@@ -101,6 +101,27 @@
   "rtx3090": {
    "comps": [
     {
+     "bids": 1,
+     "date": "2026-11-11",
+     "fixed": true,
+     "price": 209999,
+     "title": "ASUS TUF RTX3090"
+    },
+    {
+     "bids": 1,
+     "date": "2026-11-11",
+     "fixed": true,
+     "price": 219500,
+     "title": "（動確済み中古品）PALIT GamingPro GeForce RTX 3090 24GB グラフィックボード・送料無料"
+    },
+    {
+     "bids": 39,
+     "date": "2026-11-11",
+     "fixed": false,
+     "price": 65250,
+     "title": "【1円スタート】ZOTAC RTX 3090 24GB X-GAMING OC"
+    },
+    {
      "bids": 12,
      "date": "2026-11-10",
      "fixed": false,
@@ -162,34 +183,27 @@
      "fixed": false,
      "price": 198000,
      "title": "GeForce GIGABYTE RTX3090 GAMING OC 24G 動作OK"
-    },
-    {
-     "bids": 1,
-     "date": "2026-11-07",
-     "fixed": true,
-     "price": 230000,
-     "title": "GIGABYTE GeForce RTX 3090 Turbo 24GB #1"
-    },
-    {
-     "bids": 1,
-     "date": "2026-11-06",
-     "fixed": true,
-     "price": 245000,
-     "title": "MSI GeForce RTX3090 SUPRIM X 24G"
-    },
-    {
-     "bids": 1,
-     "date": "2026-11-06",
-     "fixed": true,
-     "price": 218000,
-     "title": "MSI VENTUS 3X GeForce RTX 3090 24g"
     }
    ],
-   "median": 218500,
-   "samples": 52
+   "median": 218000,
+   "samples": 53
   },
   "rtx3090ti": {
    "comps": [
+    {
+     "bids": 44,
+     "date": "2026-11-11",
+     "fixed": false,
+     "price": 101000,
+     "title": "MSI GEFORCE RTX3090TI Gallardo GAMING グラフィックボード 24GB Asetek 現状渡し"
+    },
+    {
+     "bids": 27,
+     "date": "2026-11-11",
+     "fixed": false,
+     "price": 132000,
+     "title": "MSI GEFORCE RTX3090TI GAMING グラフィックボード 24GB Noctua ファン 換装 グラボ 水冷 ASUS Strix LC"
+    },
     {
      "bids": 21,
      "date": "2026-11-05",
@@ -259,24 +273,10 @@
      "fixed": false,
      "price": 231000,
      "title": "[動作OK]RTX 3090ti 24GB - RTX 3090 Ti BLACK TRIO 24G[GPU、グラボ、グラフィックボード]"
-    },
-    {
-     "bids": 1,
-     "date": "2026-09-17",
-     "fixed": true,
-     "price": 240000,
-     "title": "ROG Strix LC GeForce RTX 3090 Ti OC Edition 水冷 中古動作品"
-    },
-    {
-     "bids": 1,
-     "date": "2026-09-14",
-     "fixed": true,
-     "price": 240000,
-     "title": "【週末価格】 MSI RTX 3090 Ti 24GB BLACK TRIO 【動作確認済み】"
     }
    ],
-   "median": 228000,
-   "samples": 21
+   "median": 225000,
+   "samples": 23
   },
   "rtx4070tisuper": {
    "comps": [
@@ -551,6 +551,13 @@
   "rtx4090": {
    "comps": [
     {
+     "bids": 20,
+     "date": "2026-11-11",
+     "fixed": false,
+     "price": 7250,
+     "title": "GIGABYTE RTX 4090 グラフィックボード AK16"
+    },
+    {
      "bids": 44,
      "date": "2026-11-10",
      "fixed": false,
@@ -626,17 +633,10 @@
      "fixed": false,
      "price": 13000,
      "title": "GeForce RTX4090 グラフィックボード　A25"
-    },
-    {
-     "bids": 1,
-     "date": "2026-11-03",
-     "fixed": true,
-     "price": 445000,
-     "title": "動作確認済　NVIDIA RTX 4090 24GB 外排気モデル グラフィックボード"
     }
    ],
    "median": 475000,
-   "samples": 47
+   "samples": 46
   },
   "rtx4090d": {
    "comps": [],
@@ -757,6 +757,13 @@
    "comps": [
     {
      "bids": 1,
+     "date": "2026-11-11",
+     "fixed": true,
+     "price": 335000,
+     "title": "ASUS ROG ASTRAL GeForce RTX 5080 OC Edition 16GB GDDR7"
+    },
+    {
+     "bids": 1,
      "date": "2026-11-10",
      "fixed": true,
      "price": 274900,
@@ -831,13 +838,6 @@
      "fixed": true,
      "price": 280000,
      "title": "Palit GeForce RTX 5080 GamingPro 16GB グラフィックボード"
-    },
-    {
-     "bids": 1,
-     "date": "2026-11-04",
-     "fixed": true,
-     "price": 285000,
-     "title": "【元箱・付属品完備】GIGABYTE RTX 5080 GAMING OC 16G ほぼ未使用"
     }
    ],
    "median": 291750,
@@ -845,6 +845,13 @@
   },
   "rtx5090": {
    "comps": [
+    {
+     "bids": 1,
+     "date": "2026-11-11",
+     "fixed": true,
+     "price": 5000,
+     "title": "ZOTAC RTX5090クーラーと箱　部品交換用　部屋飾り物用"
+    },
     {
      "bids": 41,
      "date": "2026-11-10",
@@ -921,13 +928,6 @@
      "fixed": true,
      "price": 5000,
      "title": "INNO3D RTX5090クーラーと箱 部品交換用　部屋飾り物用"
-    },
-    {
-     "bids": 1,
-     "date": "2026-11-07",
-     "fixed": true,
-     "price": 5000,
-     "title": "ZOTAC RTX5090クーラーと箱　部品交換用　部屋飾り物用"
     }
    ],
    "median": 990000,
@@ -1228,8 +1228,8 @@
      "title": "NVIDIA TITAN RTX GDDR6 24GB【動作確認済み】GPU グラフィックボード グラボ"
     }
    ],
-   "median": 136000,
-   "samples": 16
+   "median": 137450,
+   "samples": 15
   }
  },
  "seen": {
@@ -1263,6 +1263,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "1217426067": {
+   "end_time": "2026-11-14T23:00:45+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "1231903972": {
    "end_time": "2026-11-09T07:26:56+09:00",
    "family": null,
@@ -1279,12 +1285,6 @@
    "end_time": "2026-11-11T04:38:22+09:00",
    "family": "titanrtx",
    "reason": "price 147% of market",
-   "status": "screened"
-  },
-  "1246508348": {
-   "end_time": "2026-11-08T21:58:27+09:00",
-   "family": null,
-   "reason": "no target model in title",
    "status": "screened"
   },
   "1247362480": {
@@ -1323,12 +1323,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "1250583095": {
-   "end_time": "2026-11-08T22:04:09+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "1250680280": {
    "end_time": "2026-11-09T07:03:28+09:00",
    "family": "epyc",
@@ -1341,20 +1335,8 @@
    "reason": "accessory/parts keyword",
    "status": "screened"
   },
-  "1250767720": {
-   "end_time": "2026-11-08T20:41:14+09:00",
-   "family": "rtx4090",
-   "reason": "junk/untested",
-   "status": "screened"
-  },
   "1250800710": {
    "end_time": "2026-11-11T21:58:49+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "1251081052": {
-   "end_time": "2026-11-08T22:49:46+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -1365,20 +1347,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "1251249524": {
-   "end_time": "2026-11-08T22:56:10+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "1251277584": {
    "end_time": "2026-11-10T21:30:25+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "1251303157": {
-   "end_time": "2026-11-08T22:14:16+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -1443,6 +1413,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "1251903283": {
+   "end_time": "2026-11-13T22:10:55+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "1251904530": {
    "end_time": "2026-11-16T22:31:08+09:00",
    "family": null,
@@ -1451,6 +1427,24 @@
   },
   "1251921161": {
    "end_time": "2026-11-13T22:57:47+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "1251951378": {
+   "end_time": "2026-11-14T01:09:34+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "1251957712": {
+   "end_time": "2026-11-14T01:00:51+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "1251957755": {
+   "end_time": "2026-11-14T01:33:00+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -1503,20 +1497,8 @@
    "reason": "accessory/parts keyword",
    "status": "screened"
   },
-  "b1247450819": {
-   "end_time": "2026-11-08T21:38:02+09:00",
-   "family": "rtx3090",
-   "reason": "accessory/parts keyword",
-   "status": "screened"
-  },
   "b1248927573": {
    "end_time": "2026-11-09T13:03:22+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "b1249968484": {
-   "end_time": "2026-11-08T20:48:33+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -1527,32 +1509,14 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "b1250598905": {
-   "end_time": "2026-11-08T18:51:55+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "b1250600676": {
    "end_time": "2026-11-10T22:38:37+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
   },
-  "b1250740055": {
-   "end_time": "2026-11-08T22:02:39+09:00",
-   "family": "rtx5090",
-   "reason": "price 87% of market",
-   "status": "screened"
-  },
   "b1250891797": {
    "end_time": "2026-11-11T15:30:46+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "b1250943839": {
-   "end_time": "2026-11-08T22:23:54+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -1569,12 +1533,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "b1251098610": {
-   "end_time": "2026-11-08T23:06:55+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "b1251151174": {
    "end_time": "2026-11-10T19:03:38+09:00",
    "family": null,
@@ -1583,12 +1541,6 @@
   },
   "b1251201586": {
    "end_time": "2026-11-09T22:47:53+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "b1251259658": {
-   "end_time": "2026-11-08T22:33:17+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -1749,20 +1701,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "c1250609845": {
-   "end_time": "2026-11-08T23:20:05+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "c1250828303": {
    "end_time": "2026-11-12T09:20:15+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "c1250830524": {
-   "end_time": "2026-11-08T22:41:54+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -1779,12 +1719,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "c1250909021": {
-   "end_time": "2026-11-08T22:48:29+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "c1250911362": {
    "end_time": "2026-11-10T01:44:32+09:00",
    "family": null,
@@ -1797,12 +1731,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "c1250997459": {
-   "end_time": "2026-11-08T22:25:10+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "c1251101959": {
    "end_time": "2026-11-09T22:51:14+09:00",
    "family": null,
@@ -1811,12 +1739,6 @@
   },
   "c1251123529": {
    "end_time": "2026-11-10T17:47:11+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "c1251264423": {
-   "end_time": "2026-11-08T22:38:35+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -1935,20 +1857,8 @@
    "reason": "price 155% of market",
    "status": "screened"
   },
-  "d1250369756": {
-   "end_time": "2026-11-08T21:03:50+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "d1250374532": {
    "end_time": "2026-11-11T23:17:21+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "d1250782729": {
-   "end_time": "2026-11-09T01:06:30+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -1965,26 +1875,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "d1250918289": {
-   "end_time": "2026-11-08T22:43:25+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "d1250922853": {
    "end_time": "2026-11-10T01:55:46+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "d1250960609": {
-   "end_time": "2026-11-08T22:35:53+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "d1250985519": {
-   "end_time": "2026-11-08T21:09:21+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -1993,24 +1885,6 @@
    "end_time": "2026-11-11T21:06:04+09:00",
    "family": null,
    "reason": "no target model in title",
-   "status": "screened"
-  },
-  "d1251096157": {
-   "end_time": "2026-11-08T22:59:38+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "d1251140618": {
-   "end_time": "2026-11-08T21:53:19+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "d1251170636": {
-   "end_time": "2026-11-08T22:03:59+09:00",
-   "family": "rtx4090",
-   "reason": "suspiciously cheap fixed price (5%)",
    "status": "screened"
   },
   "d1251177302": {
@@ -2025,18 +1899,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "d1251288885": {
-   "end_time": "2026-11-08T22:49:47+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "d1251293711": {
-   "end_time": "2026-11-08T22:38:48+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "d1251299857": {
    "end_time": "2026-11-09T21:06:08+09:00",
    "family": null,
@@ -2045,12 +1907,6 @@
   },
   "d1251313476": {
    "end_time": "2026-11-09T19:23:19+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "d1251331586": {
-   "end_time": "2026-11-08T21:18:54+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -2115,8 +1971,20 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "e1195549690": {
-   "end_time": "2026-11-08T20:44:20+09:00",
+  "d1251974915": {
+   "end_time": "2026-11-14T01:07:39+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "d1251975959": {
+   "end_time": "2026-11-14T01:36:05+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "d1251977100": {
+   "end_time": "2026-11-14T01:51:49+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -2163,6 +2031,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "e1250621942": {
+   "end_time": "2026-11-15T07:51:58+09:00",
+   "family": "rtx5080",
+   "reason": "price 118% of market",
+   "status": "screened"
+  },
   "e1250840023": {
    "end_time": "2026-11-09T21:39:18+09:00",
    "family": null,
@@ -2199,22 +2073,10 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "e1250969802": {
-   "end_time": "2026-11-08T22:49:51+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "e1250992032": {
    "end_time": "2026-11-14T20:36:01+09:00",
    "family": "rtx5090",
    "reason": "junk/untested",
-   "status": "screened"
-  },
-  "e1251024503": {
-   "end_time": "2026-11-08T22:37:07+09:00",
-   "family": null,
-   "reason": "no target model in title",
    "status": "screened"
   },
   "e1251039752": {
@@ -2235,20 +2097,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "e1251141759": {
-   "end_time": "2026-11-08T20:21:37+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "e1251154239": {
    "end_time": "2026-11-09T04:08:30+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "e1251181533": {
-   "end_time": "2026-11-08T22:16:03+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -2271,12 +2121,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "e1251271428": {
-   "end_time": "2026-11-08T22:47:14+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "e1251303254": {
    "end_time": "2026-11-09T18:06:52+09:00",
    "family": null,
@@ -2291,12 +2135,6 @@
   },
   "e1251426980": {
    "end_time": "2026-11-10T19:43:09+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "e1251435374": {
-   "end_time": "2026-11-08T22:16:36+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -2390,6 +2228,12 @@
    "reason": "junk/untested",
    "status": "screened"
   },
+  "e1251959763": {
+   "end_time": "2026-11-15T22:20:32+09:00",
+   "family": "rtx4090d",
+   "reason": "junk/untested",
+   "status": "screened"
+  },
   "f1082696921": {
    "end_time": "2026-11-11T05:38:02+09:00",
    "family": null,
@@ -2420,12 +2264,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "f1248156403": {
-   "end_time": "2026-11-08T20:42:47+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "f1248689882": {
    "end_time": "2026-11-14T21:46:22+09:00",
    "family": "rtx5070ti",
@@ -2440,12 +2278,6 @@
   },
   "f1249933193": {
    "end_time": "2026-11-12T21:07:08+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "f1250604763": {
-   "end_time": "2026-11-08T22:50:21+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -2480,12 +2312,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "f1250845779": {
-   "end_time": "2026-11-08T22:47:13+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "f1250859520": {
    "end_time": "2026-11-14T21:59:56+09:00",
    "family": "rtx5090",
@@ -2510,32 +2336,14 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "f1250957441": {
-   "end_time": "2026-11-08T22:54:07+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "f1251080821": {
    "end_time": "2026-11-12T09:48:50+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
   },
-  "f1251117798": {
-   "end_time": "2026-11-08T18:31:26+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "f1251266932": {
    "end_time": "2026-11-13T22:17:01+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "f1251324554": {
-   "end_time": "2026-11-08T23:42:18+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -2548,12 +2356,6 @@
   },
   "f1251361152": {
    "end_time": "2026-11-10T20:07:11+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "f1251415287": {
-   "end_time": "2026-11-08T21:32:32+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -2666,18 +2468,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "g1219354094": {
-   "end_time": "2026-11-08T21:59:32+09:00",
-   "family": "rtx4090",
-   "reason": "accessory/parts keyword",
-   "status": "screened"
-  },
-  "g1224397393": {
-   "end_time": "2026-11-08T21:33:52+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "g1239453318": {
    "end_time": "2026-11-09T22:48:46+09:00",
    "family": "rtx4090",
@@ -2692,12 +2482,6 @@
   },
   "g1247428361": {
    "end_time": "2026-11-11T22:50:53+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "g1248317858": {
-   "end_time": "2026-11-08T21:37:51+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -2726,24 +2510,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "g1250552989": {
-   "end_time": "2026-11-08T22:53:22+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "g1250597643": {
-   "end_time": "2026-11-08T22:05:48+09:00",
-   "family": "rtx4090d",
-   "reason": "junk/untested",
-   "status": "screened"
-  },
-  "g1250602890": {
-   "end_time": "2026-11-08T21:32:13+09:00",
-   "family": "rtx3090",
-   "reason": "PC price 219% of GPU market",
-   "status": "screened"
-  },
   "g1250733683": {
    "end_time": "2026-11-09T09:06:52+09:00",
    "family": "epyc",
@@ -2770,30 +2536,6 @@
   },
   "g1250989259": {
    "end_time": "2026-11-10T22:07:14+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "g1250998199": {
-   "end_time": "2026-11-08T19:12:34+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "g1251055191": {
-   "end_time": "2026-11-08T22:35:25+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "g1251088783": {
-   "end_time": "2026-11-08T22:35:07+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "g1251110494": {
-   "end_time": "2026-11-08T22:52:56+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -2862,6 +2604,24 @@
    "end_time": "2026-11-19T00:40:38+09:00",
    "family": "rtx5090",
    "reason": "suspiciously cheap fixed price (2%)",
+   "status": "screened"
+  },
+  "g1251962345": {
+   "end_time": "2026-11-14T01:52:10+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "g1251965693": {
+   "end_time": "2026-11-14T01:18:50+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "g1251967179": {
+   "end_time": "2026-11-14T01:07:02+09:00",
+   "family": null,
+   "reason": "no target model in title",
    "status": "screened"
   },
   "h1173325554": {
@@ -2954,12 +2714,6 @@
    "reason": "suspiciously cheap fixed price (5%)",
    "status": "screened"
   },
-  "h1250695688": {
-   "end_time": "2026-11-08T21:37:31+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "h1250910361": {
    "end_time": "2026-11-10T01:37:10+09:00",
    "family": null,
@@ -2972,26 +2726,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "h1251113226": {
-   "end_time": "2026-11-08T21:11:17+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "h1251116005": {
    "end_time": "2026-11-13T04:40:49+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "h1251122889": {
-   "end_time": "2026-11-08T21:38:20+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "h1251201858": {
-   "end_time": "2026-11-08T22:51:03+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -3004,12 +2740,6 @@
   },
   "h1251291435": {
    "end_time": "2026-11-11T20:55:29+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "h1251297071": {
-   "end_time": "2026-11-08T22:00:24+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -3104,14 +2834,20 @@
    "reason": "suspiciously cheap fixed price (2%)",
    "status": "screened"
   },
-  "j1209889973": {
-   "end_time": "2026-11-10T22:35:22+09:00",
+  "h1251945680": {
+   "end_time": "2026-11-13T20:02:23+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
   },
-  "j1223120996": {
-   "end_time": "2026-11-08T21:48:17+09:00",
+  "h1251947262": {
+   "end_time": "2026-11-15T21:22:53+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "j1209889973": {
+   "end_time": "2026-11-10T22:35:22+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -3128,12 +2864,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "j1247323133": {
-   "end_time": "2026-11-08T21:59:36+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "j1249073011": {
    "end_time": "2026-11-10T23:02:34+09:00",
    "family": "rtx4090",
@@ -3146,12 +2876,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "j1249932662": {
-   "end_time": "2026-11-08T21:56:22+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "j1250058187": {
    "end_time": "2026-11-11T05:39:48+09:00",
    "family": null,
@@ -3160,24 +2884,6 @@
   },
   "j1250497921": {
    "end_time": "2026-11-09T21:52:50+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "j1250611687": {
-   "end_time": "2026-11-08T22:18:37+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "j1250622068": {
-   "end_time": "2026-11-08T23:18:45+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "j1250675918": {
-   "end_time": "2026-11-08T23:49:53+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -3200,32 +2906,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "j1250867149": {
-   "end_time": "2026-11-08T22:52:23+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "j1251000020": {
    "end_time": "2026-11-09T22:54:29+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "j1251005416": {
-   "end_time": "2026-11-08T22:20:29+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "j1251104839": {
-   "end_time": "2026-11-08T18:43:07+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "j1251133614": {
-   "end_time": "2026-11-08T22:09:12+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -3326,6 +3008,24 @@
    "reason": "suspiciously cheap fixed price (2%)",
    "status": "screened"
   },
+  "j1251963270": {
+   "end_time": "2026-11-19T11:02:41+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "j1251971468": {
+   "end_time": "2026-11-14T01:01:38+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "j1251973112": {
+   "end_time": "2026-11-14T01:37:14+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "k1123602285": {
    "end_time": "2026-11-13T08:39:20+09:00",
    "family": "rtx5070ti",
@@ -3346,12 +3046,6 @@
   },
   "k1235529742": {
    "end_time": "2026-11-10T22:28:22+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "k1238226147": {
-   "end_time": "2026-11-08T20:20:52+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -3380,24 +3074,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "k1250592850": {
-   "end_time": "2026-11-08T23:46:04+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "k1250592968": {
-   "end_time": "2026-11-08T22:55:28+09:00",
-   "family": "rtx3090",
-   "reason": "price 89% of market",
-   "status": "screened"
-  },
-  "k1250617454": {
-   "end_time": "2026-11-08T23:16:58+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "k1250695532": {
    "end_time": "2026-11-09T23:31:48+09:00",
    "family": null,
@@ -3414,18 +3090,6 @@
    "end_time": "2026-11-09T09:09:20+09:00",
    "family": "epyc",
    "reason": "EPYC price 2460% of sold median",
-   "status": "screened"
-  },
-  "k1250848633": {
-   "end_time": "2026-11-08T22:16:27+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "k1250970359": {
-   "end_time": "2026-11-08T21:46:27+09:00",
-   "family": null,
-   "reason": "no target model in title",
    "status": "screened"
   },
   "k1251015393": {
@@ -3454,12 +3118,6 @@
   },
   "k1251223884": {
    "end_time": "2026-11-12T02:36:39+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "k1251239388": {
-   "end_time": "2026-11-08T22:52:03+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -3524,8 +3182,20 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "k1251800086": {
+   "end_time": "2026-11-12T21:10:21+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "k1251843199": {
    "end_time": "2026-11-15T21:33:28+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "k1251964764": {
+   "end_time": "2026-11-14T01:01:28+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -3538,6 +3208,12 @@
   },
   "l1184628330": {
    "end_time": "2026-11-11T23:12:35+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "l1194416450": {
+   "end_time": "2026-11-12T23:42:09+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -3572,12 +3248,6 @@
    "reason": "price 103% of market",
    "status": "screened"
   },
-  "l1249711449": {
-   "end_time": "2026-11-08T18:33:54+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "l1250917298": {
    "end_time": "2026-11-10T01:12:52+09:00",
    "family": null,
@@ -3596,20 +3266,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "l1251028171": {
-   "end_time": "2026-11-08T23:51:09+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "l1251029773": {
    "end_time": "2026-11-11T11:55:41+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "l1251089051": {
-   "end_time": "2026-11-08T22:01:38+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -3620,20 +3278,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "l1251187763": {
-   "end_time": "2026-11-08T22:58:51+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "l1251248848": {
    "end_time": "2026-11-09T21:32:59+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "l1251251508": {
-   "end_time": "2026-11-08T22:56:14+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -3680,6 +3326,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "l1251970639": {
+   "end_time": "2026-11-14T01:47:54+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "m1226927338": {
    "end_time": "2026-11-10T22:15:45+09:00",
    "family": "rtx4090",
@@ -3722,40 +3374,10 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "m1250378258": {
-   "end_time": "2026-11-08T22:48:36+09:00",
-   "family": "rtx4090",
-   "reason": "suspiciously cheap fixed price (5%)",
-   "status": "screened"
-  },
-  "m1250394239": {
-   "end_time": "2026-11-09T00:15:46+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "m1250640228": {
-   "end_time": "2026-11-08T21:21:23+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "m1250734529": {
    "end_time": "2026-11-09T09:03:44+09:00",
    "family": "epyc",
    "reason": "EPYC price 3065% of sold median",
-   "status": "screened"
-  },
-  "m1250777940": {
-   "end_time": "2026-11-09T01:58:58+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "m1250856685": {
-   "end_time": "2026-11-08T22:28:12+09:00",
-   "family": null,
-   "reason": "no target model in title",
    "status": "screened"
   },
   "m1250858544": {
@@ -3776,34 +3398,10 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "m1251008114": {
-   "end_time": "2026-11-08T23:41:46+09:00",
-   "family": "rtx4090",
-   "reason": "junk/untested",
-   "status": "screened"
-  },
-  "m1251072571": {
-   "end_time": "2026-11-08T22:12:19+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "m1251268065": {
-   "end_time": "2026-11-08T22:35:55+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "m1251269875": {
    "end_time": "2026-11-09T20:04:24+09:00",
    "family": "rtx4090",
    "reason": "junk/untested",
-   "status": "screened"
-  },
-  "m1251282319": {
-   "end_time": "2026-11-08T22:37:45+09:00",
-   "family": null,
-   "reason": "no target model in title",
    "status": "screened"
   },
   "m1251291566": {
@@ -3814,18 +3412,6 @@
   },
   "m1251298600": {
    "end_time": "2026-11-10T21:49:04+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "m1251304498": {
-   "end_time": "2026-11-08T23:33:05+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "m1251319013": {
-   "end_time": "2026-11-08T23:43:21+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -3908,12 +3494,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "n1239350356": {
-   "end_time": "2026-11-08T18:59:05+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "n1250234734": {
    "end_time": "2026-11-12T21:47:31+09:00",
    "family": "rtx5080",
@@ -3938,18 +3518,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "n1250577194": {
-   "end_time": "2026-11-08T22:30:13+09:00",
-   "family": "rtx4090",
-   "reason": "accessory/parts keyword",
-   "status": "screened"
-  },
-  "n1250679843": {
-   "end_time": "2026-11-08T20:19:35+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "n1250733105": {
    "end_time": "2026-11-10T21:13:07+09:00",
    "family": null,
@@ -3960,18 +3528,6 @@
    "end_time": "2026-11-16T09:03:34+09:00",
    "family": "epyc",
    "reason": "EPYC price 15600% of sold median",
-   "status": "screened"
-  },
-  "n1250771539": {
-   "end_time": "2026-11-09T01:08:11+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "n1250864400": {
-   "end_time": "2026-11-08T23:05:24+09:00",
-   "family": null,
-   "reason": "no target model in title",
    "status": "screened"
   },
   "n1250906791": {
@@ -3992,12 +3548,6 @@
    "reason": "junk/untested",
    "status": "screened"
   },
-  "n1250992227": {
-   "end_time": "2026-11-08T20:56:29+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "n1251014222": {
    "end_time": "2026-11-12T18:34:53+09:00",
    "family": "rtx5090",
@@ -4010,20 +3560,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "n1251113036": {
-   "end_time": "2026-11-08T21:34:35+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "n1251257584": {
    "end_time": "2026-11-11T22:24:48+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "n1251274473": {
-   "end_time": "2026-11-08T22:24:37+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4082,6 +3620,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "n1251841139": {
+   "end_time": "2026-11-12T22:57:53+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "n1251843784": {
    "end_time": "2026-11-13T08:51:58+09:00",
    "family": null,
@@ -4096,6 +3640,12 @@
   },
   "n1251867268": {
    "end_time": "2026-11-13T09:46:12+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "o1187788585": {
+   "end_time": "2026-11-18T08:08:36+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4148,32 +3698,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "o1250359322": {
-   "end_time": "2026-11-08T19:00:44+09:00",
-   "family": "rtx3090",
-   "reason": "price 122% of market",
-   "status": "screened"
-  },
   "o1250751167": {
    "end_time": "2026-11-12T22:20:32+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "o1250784382": {
-   "end_time": "2026-11-09T01:46:04+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "o1250858825": {
-   "end_time": "2026-11-08T22:50:22+09:00",
-   "family": "rtx4090",
-   "reason": "junk/untested",
-   "status": "screened"
-  },
-  "o1250860372": {
-   "end_time": "2026-11-08T22:13:58+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4184,14 +3710,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "o1250985693": {
-   "end_time": "2026-11-08T23:24:21+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "o1251106890": {
-   "end_time": "2026-11-08T23:13:45+09:00",
+  "o1251008935": {
+   "end_time": "2026-11-14T20:37:03+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4220,22 +3740,10 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "o1251343957": {
-   "end_time": "2026-11-08T23:03:03+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "o1251376188": {
    "end_time": "2026-11-14T22:49:22+09:00",
    "family": "rtx5090",
    "reason": "suspiciously cheap fixed price (1%)",
-   "status": "screened"
-  },
-  "o1251409729": {
-   "end_time": "2026-11-08T23:52:01+09:00",
-   "family": null,
-   "reason": "no target model in title",
    "status": "screened"
   },
   "o1251433224": {
@@ -4352,20 +3860,14 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "p1246052933": {
-   "end_time": "2026-11-08T23:59:07+09:00",
+  "p1248241124": {
+   "end_time": "2026-11-17T15:39:34+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
   },
   "p1248883268": {
    "end_time": "2026-11-09T21:33:51+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "p1249482049": {
-   "end_time": "2026-11-08T21:21:05+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4380,12 +3882,6 @@
    "end_time": "2026-11-10T18:33:43+09:00",
    "family": "rtx5090",
    "reason": "price 105% of market",
-   "status": "screened"
-  },
-  "p1250614811": {
-   "end_time": "2026-11-09T00:41:36+09:00",
-   "family": "rtx5090",
-   "reason": "accessory/parts keyword",
    "status": "screened"
   },
   "p1250757232": {
@@ -4406,44 +3902,8 @@
    "reason": "EPYC price 100% of sold median",
    "status": "screened"
   },
-  "p1250999627": {
-   "end_time": "2026-11-08T22:23:56+09:00",
-   "family": "rtx5090",
-   "reason": "suspiciously cheap fixed price (2%)",
-   "status": "screened"
-  },
-  "p1251073071": {
-   "end_time": "2026-11-08T22:16:28+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "p1251086026": {
-   "end_time": "2026-11-08T23:25:48+09:00",
-   "family": "rtx5090",
-   "reason": "price 95% of market",
-   "status": "screened"
-  },
   "p1251090169": {
    "end_time": "2026-11-12T09:00:29+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "p1251095261": {
-   "end_time": "2026-11-08T20:13:51+09:00",
-   "family": "rtx3090",
-   "reason": "price 93% of market",
-   "status": "screened"
-  },
-  "p1251099249": {
-   "end_time": "2026-11-08T23:08:40+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "p1251131717": {
-   "end_time": "2026-11-08T18:50:50+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4592,6 +4052,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "p1251938742": {
+   "end_time": "2026-11-14T21:02:01+09:00",
+   "family": "rtx3090",
+   "reason": "price 127% of market",
+   "status": "screened"
+  },
   "q1216323007": {
    "end_time": "2026-11-11T22:14:39+09:00",
    "family": null,
@@ -4600,12 +4066,6 @@
   },
   "q1235787124": {
    "end_time": "2026-11-13T21:02:21+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "q1237096057": {
-   "end_time": "2026-11-08T20:46:55+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4622,22 +4082,10 @@
    "reason": "laptop",
    "status": "screened"
   },
-  "q1248815411": {
-   "end_time": "2026-11-08T20:07:52+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "q1249618511": {
    "end_time": "2026-11-09T22:20:05+09:00",
    "family": "rtx3090",
    "reason": "accessory/parts keyword",
-   "status": "screened"
-  },
-  "q1249698495": {
-   "end_time": "2026-11-08T21:06:17+09:00",
-   "family": "titanrtx",
-   "reason": "price 110% of market",
    "status": "screened"
   },
   "q1249795827": {
@@ -4654,18 +4102,6 @@
   },
   "q1249945046": {
    "end_time": "2026-11-11T01:00:32+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "q1250551652": {
-   "end_time": "2026-11-08T22:16:32+09:00",
-   "family": "rtx4090",
-   "reason": "laptop",
-   "status": "screened"
-  },
-  "q1250583011": {
-   "end_time": "2026-11-08T22:17:53+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4706,14 +4142,14 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "q1251090838": {
-   "end_time": "2026-11-08T23:12:45+09:00",
+  "q1251260651": {
+   "end_time": "2026-11-09T15:32:07+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
   },
-  "q1251260651": {
-   "end_time": "2026-11-09T15:32:07+09:00",
+  "q1251363828": {
+   "end_time": "2026-11-13T20:11:55+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4820,12 +4256,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "r1243052294": {
-   "end_time": "2026-11-08T23:08:20+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "r1245534931": {
    "end_time": "2026-11-10T16:42:54+09:00",
    "family": null,
@@ -4838,26 +4268,20 @@
    "reason": "accessory/parts keyword",
    "status": "screened"
   },
-  "r1248070528": {
-   "end_time": "2026-11-08T21:53:29+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "r1249157651": {
    "end_time": "2026-11-11T05:49:54+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
   },
-  "r1250354030": {
-   "end_time": "2026-11-09T22:18:05+09:00",
+  "r1249833801": {
+   "end_time": "2026-11-13T22:20:57+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
   },
-  "r1250361870": {
-   "end_time": "2026-11-08T22:28:30+09:00",
+  "r1250354030": {
+   "end_time": "2026-11-09T22:18:05+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4874,32 +4298,14 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "r1250964212": {
-   "end_time": "2026-11-08T22:00:33+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "r1251005915": {
    "end_time": "2026-11-10T22:34:51+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
   },
-  "r1251106638": {
-   "end_time": "2026-11-08T22:17:42+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "r1251134417": {
    "end_time": "2026-11-09T22:00:52+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "r1251137814": {
-   "end_time": "2026-11-08T18:59:58+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -4918,12 +4324,6 @@
   },
   "r1251233104": {
    "end_time": "2026-11-11T23:34:25+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "r1251267823": {
-   "end_time": "2026-11-08T22:03:09+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -5072,6 +4472,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "r1251973419": {
+   "end_time": "2026-11-14T01:57:23+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "r332832982": {
    "end_time": "2026-11-11T06:49:38+09:00",
    "family": null,
@@ -5084,9 +4490,9 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "s1225009601": {
-   "end_time": "2026-11-08T23:14:21+09:00",
-   "family": "rtx5090",
+  "s1214308685": {
+   "end_time": "2026-11-14T22:33:02+09:00",
+   "family": "rtx3090",
    "reason": "accessory/parts keyword",
    "status": "screened"
   },
@@ -5116,12 +4522,6 @@
   },
   "s1244179774": {
    "end_time": "2026-11-13T00:45:22+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "s1245266613": {
-   "end_time": "2026-11-08T21:19:45+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -5168,18 +4568,6 @@
    "reason": "EPYC price 100% of sold median",
    "status": "screened"
   },
-  "s1250744014": {
-   "end_time": "2026-11-08T21:28:09+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "s1250865760": {
-   "end_time": "2026-11-08T21:04:38+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "s1250918991": {
    "end_time": "2026-11-10T01:06:49+09:00",
    "family": null,
@@ -5192,20 +4580,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "s1251057986": {
-   "end_time": "2026-11-08T22:00:20+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "s1251081662": {
    "end_time": "2026-11-11T22:21:38+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "s1251138214": {
-   "end_time": "2026-11-08T18:34:04+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -5230,12 +4606,6 @@
   },
   "s1251278177": {
    "end_time": "2026-11-14T22:48:32+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "s1251434099": {
-   "end_time": "2026-11-08T22:08:19+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -5270,6 +4640,18 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "s1251960754": {
+   "end_time": "2026-11-15T22:10:43+09:00",
+   "family": "rtx4090",
+   "reason": "junk/untested",
+   "status": "screened"
+  },
+  "s1251970240": {
+   "end_time": "2026-11-14T01:38:36+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "t1199466260": {
    "end_time": "2026-11-10T13:54:52+09:00",
    "family": null,
@@ -5284,12 +4666,6 @@
   },
   "t1201630386": {
    "end_time": "2026-11-12T19:29:32+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "t1212731216": {
-   "end_time": "2026-11-08T21:56:25+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -5310,12 +4686,6 @@
    "end_time": "2026-11-12T21:15:33+09:00",
    "family": "quadrortx8000",
    "reason": "accessory/parts keyword",
-   "status": "screened"
-  },
-  "t1248659101": {
-   "end_time": "2026-11-08T21:43:06+09:00",
-   "family": null,
-   "reason": "no target model in title",
    "status": "screened"
   },
   "t1248812962": {
@@ -5354,12 +4724,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "t1250601148": {
-   "end_time": "2026-11-08T21:05:25+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "t1250653178": {
    "end_time": "2026-11-09T09:13:15+09:00",
    "family": null,
@@ -5368,18 +4732,6 @@
   },
   "t1250709060": {
    "end_time": "2026-11-09T23:15:24+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "t1250845842": {
-   "end_time": "2026-11-08T20:42:24+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "t1250857925": {
-   "end_time": "2026-11-08T20:40:35+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -5410,12 +4762,6 @@
   },
   "t1251057400": {
    "end_time": "2026-11-11T00:59:50+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "t1251102514": {
-   "end_time": "2026-11-08T23:11:46+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -5485,22 +4831,28 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "t1251958415": {
+   "end_time": "2026-11-14T22:47:12+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "u1164934732": {
    "end_time": "2026-11-13T14:15:15+09:00",
    "family": "rtx5070ti",
    "reason": "PC price 279% of GPU market",
    "status": "screened"
   },
+  "u1185895257": {
+   "end_time": "2026-11-13T20:55:27+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "u1219524756": {
    "end_time": "2026-11-12T19:09:09+09:00",
    "family": "rtx5070ti",
    "reason": "laptop",
-   "status": "screened"
-  },
-  "u1230541012": {
-   "end_time": "2026-11-08T22:03:42+09:00",
-   "family": null,
-   "reason": "no target model in title",
    "status": "screened"
   },
   "u1249061562": {
@@ -5545,18 +4897,6 @@
    "reason": "EPYC price 127% of sold median",
    "status": "screened"
   },
-  "u1251035225": {
-   "end_time": "2026-11-08T18:49:03+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "u1251090731": {
-   "end_time": "2026-11-08T22:12:59+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "u1251091618": {
    "end_time": "2026-11-12T13:10:56+09:00",
    "family": null,
@@ -5569,12 +4909,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "u1251093559": {
-   "end_time": "2026-11-08T22:00:35+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "u1251251371": {
    "end_time": "2026-11-10T21:31:45+09:00",
    "family": null,
@@ -5583,24 +4917,6 @@
   },
   "u1251301906": {
    "end_time": "2026-11-09T22:37:13+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "u1251337661": {
-   "end_time": "2026-11-08T21:38:17+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "u1251419578": {
-   "end_time": "2026-11-08T21:54:38+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "u1251427344": {
-   "end_time": "2026-11-08T21:43:53+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -5689,18 +5005,6 @@
    "reason": "suspiciously cheap fixed price (5%)",
    "status": "screened"
   },
-  "v1246523995": {
-   "end_time": "2026-11-08T23:06:27+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "v1248799015": {
-   "end_time": "2026-11-08T23:15:00+09:00",
-   "family": "rtx4090",
-   "reason": "suspiciously cheap fixed price (4%)",
-   "status": "screened"
-  },
   "v1249058560": {
    "end_time": "2026-11-10T06:56:22+09:00",
    "family": null,
@@ -5755,12 +5059,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "v1250859160": {
-   "end_time": "2026-11-08T22:32:11+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "v1250976951": {
    "end_time": "2026-11-09T22:03:18+09:00",
    "family": "rtx5070ti",
@@ -5797,12 +5095,6 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "v1251179984": {
-   "end_time": "2026-11-08T22:14:43+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "v1251230887": {
    "end_time": "2026-11-12T02:22:36+09:00",
    "family": null,
@@ -5811,12 +5103,6 @@
   },
   "v1251232323": {
    "end_time": "2026-11-12T02:11:58+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "v1251239017": {
-   "end_time": "2026-11-08T22:13:45+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -5835,12 +5121,6 @@
   },
   "v1251269323": {
    "end_time": "2026-11-09T21:46:26+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "v1251276619": {
-   "end_time": "2026-11-08T22:11:38+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -5883,6 +5163,18 @@
   },
   "v1251865011": {
    "end_time": "2026-11-13T22:37:08+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "v1251971003": {
+   "end_time": "2026-11-14T01:14:46+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "v1251971800": {
+   "end_time": "2026-11-14T01:31:15+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -5995,6 +5287,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "w1250370388": {
+   "end_time": "2026-11-12T07:32:06+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "w1250667248": {
    "end_time": "2026-11-09T23:02:28+09:00",
    "family": null,
@@ -6019,28 +5317,10 @@
    "reason": "suspiciously cheap fixed price (6%)",
    "status": "screened"
   },
-  "w1250858787": {
-   "end_time": "2026-11-08T21:09:38+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "w1250980991": {
    "end_time": "2026-11-09T22:15:19+09:00",
    "family": "rtx3090",
    "reason": "price 94% of market",
-   "status": "screened"
-  },
-  "w1250990180": {
-   "end_time": "2026-11-08T22:42:41+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "w1251120900": {
-   "end_time": "2026-11-08T22:11:15+09:00",
-   "family": null,
-   "reason": "no target model in title",
    "status": "screened"
   },
   "w1251121761": {
@@ -6089,12 +5369,6 @@
    "end_time": "2026-11-14T18:58:27+09:00",
    "family": "rtx3090",
    "reason": "price 123% of market",
-   "status": "screened"
-  },
-  "w1251436073": {
-   "end_time": "2026-11-08T21:43:13+09:00",
-   "family": null,
-   "reason": "no target model in title",
    "status": "screened"
   },
   "w1251505417": {
@@ -6216,6 +5490,18 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "w1251960497": {
+   "end_time": "2026-11-14T01:52:10+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "w1251963690": {
+   "end_time": "2026-11-14T01:33:16+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "x1223146751": {
    "end_time": "2026-11-09T19:06:13+09:00",
    "family": null,
@@ -6252,26 +5538,8 @@
    "reason": "no target model in title",
    "status": "screened"
   },
-  "x1248420923": {
-   "end_time": "2026-11-08T22:28:20+09:00",
-   "family": "rtx4070tisuper",
-   "reason": "price 207% of market",
-   "status": "screened"
-  },
-  "x1249552720": {
-   "end_time": "2026-11-08T22:16:30+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "x1249848115": {
    "end_time": "2026-11-15T23:23:44+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "x1250596001": {
-   "end_time": "2026-11-08T22:46:55+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -6300,50 +5568,14 @@
    "reason": "EPYC price 100% of sold median",
    "status": "screened"
   },
-  "x1251096717": {
-   "end_time": "2026-11-08T23:04:32+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "x1251128717": {
    "end_time": "2026-11-11T21:59:35+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
   },
-  "x1251155469": {
-   "end_time": "2026-11-08T21:19:14+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "x1251161458": {
-   "end_time": "2026-11-08T20:24:49+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "x1251236204": {
-   "end_time": "2026-11-08T22:24:07+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "x1251266363": {
-   "end_time": "2026-11-08T22:19:16+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
   "x1251281039": {
    "end_time": "2026-11-13T22:18:32+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "x1251285221": {
-   "end_time": "2026-11-08T21:38:09+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -6362,12 +5594,6 @@
   },
   "x1251400128": {
    "end_time": "2026-11-10T23:02:28+09:00",
-   "family": null,
-   "reason": "no target model in title",
-   "status": "screened"
-  },
-  "x1251409097": {
-   "end_time": "2026-11-08T21:15:31+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -6434,6 +5660,18 @@
   },
   "x1251882262": {
    "end_time": "2026-11-13T22:45:20+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "x1251948610": {
+   "end_time": "2026-11-19T01:57:29+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "x1251955245": {
+   "end_time": "2026-11-14T01:36:29+09:00",
    "family": null,
    "reason": "no target model in title",
    "status": "screened"
@@ -11233,6 +10471,12 @@
    "reason": "no target model in title",
    "status": "screened"
   },
+  "z721826072": {
+   "end_time": "2027-11-10T23:50:03+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
   "z721828536": {
    "end_time": "2027-11-10T23:58:06+09:00",
    "family": null,
@@ -11285,6 +10529,48 @@
    "end_time": "2027-11-11T17:20:02+09:00",
    "family": "rtx5090",
    "reason": "price 106% of market",
+   "status": "screened"
+  },
+  "z722219934": {
+   "end_time": "2027-11-11T18:50:12+09:00",
+   "family": "rtx5070ti",
+   "reason": "price 99% of market",
+   "status": "screened"
+  },
+  "z722343194": {
+   "end_time": "2027-11-11T21:59:03+09:00",
+   "family": "rtx5090",
+   "reason": "suspiciously cheap fixed price (1%)",
+   "status": "screened"
+  },
+  "z722356700": {
+   "end_time": "2027-11-11T22:20:14+09:00",
+   "family": "rtx5090",
+   "reason": "junk/untested",
+   "status": "screened"
+  },
+  "z722403388": {
+   "end_time": "2027-11-11T23:32:26+09:00",
+   "family": "rtx3090",
+   "reason": "price 100% of market",
+   "status": "screened"
+  },
+  "z722426052": {
+   "end_time": "2027-11-12T00:26:38+09:00",
+   "family": null,
+   "reason": "no target model in title",
+   "status": "screened"
+  },
+  "z722444406": {
+   "end_time": "2027-11-12T01:37:20+09:00",
+   "family": "rtx5070ti",
+   "reason": "price 123% of market",
+   "status": "screened"
+  },
+  "z722447442": {
+   "end_time": "2027-11-12T01:57:33+09:00",
+   "family": "titanrtx",
+   "reason": "price 108% of market",
    "status": "screened"
   }
  },
